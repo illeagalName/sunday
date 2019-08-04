@@ -28,9 +28,9 @@ public class MQConsumeMsgListenerProcessor implements MessageListenerConcurrentl
             String topic = messageExt.getTopic();
             String tag = messageExt.getTags();
             String msg = new String(messageExt.getBody());
-            System.out.println("*********************************");
-            System.out.println("消费响应：msgId : " + messageExt.getMsgId() + ",  msgBody : " + msg + ",	tag:" + tag + ", topic:" + topic);
-            System.out.println("*********************************");
+            log.info("*********************************");
+            log.info("消费响应：msgId : " + messageExt.getMsgId() + ",  msgBody : " + msg + ",	tag:" + tag + ", topic:" + topic);
+            log.info("*********************************");
         }
 
 //                int reconsumeTimes = messageExt.getReconsumeTimes();
