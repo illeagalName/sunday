@@ -49,7 +49,7 @@ public class SundayApplicationTests {
 
     @Test
     public void mailSend(){
-        mailService.sendSimpleMail("211770756@qq.com","675431871@qq.com",null,"测试邮件主题","测试邮件内容");
+        mailService.sendSimpleMail("211770756@qq.com","1974625107@qq.com",null,"测试邮件主题","测试邮件内容");
     }
 
 }

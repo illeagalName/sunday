@@ -14,7 +14,7 @@
     </parent>
     <groupId>com.seventh</groupId>
     <artifactId>sunday</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>sunday</name>
     <description>Demo project for Spring Boot</description>
 
@@ -145,10 +145,6 @@
         <resources>
             <resource>
                 <directory>src/main/java</directory>
-                <includes>
-                    <include>**/*.properties</include>
-                    <include>**/*.xml</include>
-                </includes>
             </resource>
             <resource>
                 <directory>src/main/resources</directory>
